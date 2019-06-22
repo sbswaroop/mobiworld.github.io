@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CheckOut</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+   <script>
+  function selhome2(){
+   
+   window.location="selhome.html";
+}
+</script>
+   <script>
+  function selhome3(){
+   
+   window.location="Buyerlogin.html";
+}
+</script>
+   <script>
+  function additem(){
+   alert("Succesfully Added to cart");
+   window.location="viewitem.html";
+}
+</script>
+<body>
+<div class="headercolor">
+<div class="h1">
+<h1>Add Item</h1>
+</div>
+<div class="col-8 text-right " bgcolor="#E6E6FA" class="xyz">
+  <div class="page-header" bgcolor="lightblue" class="button1">
+  
+     
+	 <button type="button" class="btn btn-primary btn-xl" onclick = "selhome2();">SHome</button>    
+	  <button type="button" class="btn btn-danger btn-xl" onclick = "selhome3();">Logout</button>    
+  </div>
+  
+</div>
+</div>
+
+<div class="jumbotron">
+<div class="form-group list-group-item list-group-item-warning">
+<label for="email">Product Name:</label>
+	<input type="bname" class="form-control" id="bname" placeholder="Enter name" name="name">
+    </div>
+	<div class="form-group list-group-item list-group-item-danger">
+      <label for="mobile_number">price:</label>
+      <input type="mobile_number" class="form-control" id="mobile_number" placeholder="Enter Mobile Number" name="mobile_number">
+    </div>
+    <div class="form-group list-group-item list-group-item-warning">
+      <label for="pincode">Description:</label>
+      <input type="pincode" class="form-control" id="pincode" placeholder="Enter pincode" name="pincode">
+    </div>
+	
+	<div class="input-group  list-group-item list-group-item-warning" >
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroupFileAddon01">Upload Picture</span>
+ 
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile01"
+      aria-describedby="inputGroupFileAddon01">
+    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+  </div>
+</div>
+	 </div  >
+	 <div class="col-8 text-right ">
+	 <button type="button" class="btn btn-danger btn-xl" onclick = "additem();">Add</button>   
+</div>
+</div>
+<div class="des">
+  <div >
+      
+  </div>
+  <p >Created By Swaroop Banerjee</p>      
+  <p>All images are subjected to copyright.</p>      
+</div>
+</body>
+</html>	
